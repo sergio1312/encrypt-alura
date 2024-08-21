@@ -6,6 +6,7 @@ Este es un proyecto de encriptador de texto desarrollado para aplicar conceptos 
 
 - [Características](#características)
 - [Uso](#uso)
+- [Pages](#pages)
 
 ## Características
 
@@ -23,3 +24,6 @@ Este es un proyecto de encriptador de texto desarrollado para aplicar conceptos 
 3. El texto encriptado aparecerá en el área de resultado.
 4. Puedes copiar el texto encriptado presionando el botón "Copiar".
 5. Si deseas desencriptar el texto, ingrésalo en el área principal y presiona "Desencriptar".
+
+## Pages
+- **Proyecto desplegados en Github Pages** https://sergio1312.github.io/encrypt-alura/
