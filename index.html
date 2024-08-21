@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="assets/Logo.png" alt="logo de alura" class="logo">
+    </header>
+    <main>
+        <section class="sec1">
+            <div class="contenido">
+                <textarea class="txtarea_a_encDec" cols="30" rows="10" placeholder="Ingresa el texto aqui"></textarea>
+                <h6><img src="assets/bi_exclamation-circle-fill.png" alt="simbolo de exclamacion" class="logo-exclamacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                <button class="btn_encrypt" onclick="btnEncrypt()">Encriptar</button>
+                <button class="btn_decrypt" onclick="btnDecrypt()">Desencriptar</button>
+            </div>
+        </section>
+        <section class="sect_dec">
+            <textarea class="mostrar_encDec" cols="20" rows="10"></textarea>
+            <div class="btn_copy">
+                <button class="copiar" onclick="copy()">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Desarrollado por Sergio Herrera</p>
+    </footer>
+<script src="/script.js"></script>
+</body>
+</html>

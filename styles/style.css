@@ -1,0 +1,148 @@
+:root{
+    --color-primario: #FEF3E2;
+    --color-secundario: #708871;
+    --color-terciario: #BEC6A0;
+    --color-acento: #0A3871;
+
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-krona: "krona one", sans-serif;
+}
+
+*{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+body{
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    box-sizing: border-box;
+}
+
+header{
+    margin: 0;
+    width: 350px;
+    height: 100px;
+}
+
+.logo{
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.logo-exclamacion{
+    width: 3%;
+    margin: 5px 4px 0 0;
+}
+
+main{
+    display: flex;
+    margin: 0px 1.25rem 3.12rem 2.5rem;
+}
+
+.sec1{
+    margin-left: 30px;
+}
+/*.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80;
+}*/
+
+.txtarea_a_encDec{
+    border: none;
+    color: var(--color-terciario);
+    margin: 0.5em 2rem;
+    text-transform: lowercase;
+    width: 25rem;
+    height: 20rem;
+    background: none;
+}
+::placeholder{color: #0A3871;}
+    .txtarea_a_encDec:focus{
+        outline: none;
+    }
+
+h6{
+    color: #495057;
+    font-size: 16px;
+    margin-left: 30px;
+}
+
+.botones{
+    margin: 18px;
+    display: flex;
+}
+
+.btn_encrypt{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 47px;
+    width: 220px;
+    margin: 12px;
+}
+
+.btn_decrypt{
+    background-color: var(--color-primario);
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 47px;
+    width: 220px;
+    margin: 12px;
+}
+
+.sect_dec{
+    display: flex;
+    flex-direction: column;
+}
+
+.mostrar_encDec{
+    background-color: white;
+    background-image: url("/assets/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    color: #0A3871;
+    border-radius: 24px;
+    margin-left: 100px;
+    padding-top: 20px;
+    position: fixed;
+    width: 260px;
+    height: 400px;
+}
+.mostrar_encDec:focus{
+    outline: none;
+}
+
+.btn_copy{  
+    display: flex;  
+    margin-top: 393px;
+}
+
+.copiar{
+    background-color: var(--color-primario);
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 47px;
+    width: 220px;
+    margin-left: 130px;
+    position: absolute;
+}
+
+footer{
+    color:var(--color-primario);
+    background-color: var(--color-terciario);
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}

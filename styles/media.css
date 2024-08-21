@@ -1,0 +1,26 @@
+@media(max-width : 768px){
+    main{
+        flex-direction: column;
+    }
+    .txtarea_a_encDec{
+        margin: 1rem 2.5rem;
+    }
+    .btn_encrypt{
+        width: 40%;
+    }
+    .btn_decrypt{
+        width: 40%;
+    }
+    .sect_dec{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .btn_copy{
+        margin: 20px;
+    }
+    .mostrar_encDec{
+        margin-left: 5%;
+        width: 50%;
+        height: 200px;
+    }
+}
